@@ -28,22 +28,22 @@ export function ProjectCard({img,title,description,className}) {
       <h2 className="text-[4vw] text-white text-center font-semibold carter-one-regular">Tech Used</h2>
       <div className="images flex flex-wrap max-w-80 justify-center  gap-4 mt-10">
         <div className="w-24 h-24 rounded-full ring-2 p-2 flex justify-center items-center">
-          <img className="w-18 object-contain object-center" src={react} alt="" />
+          <img className="w-18 object-contain object-center" src={react} alt="react" />
         </div>
         <div className="w-24 h-24 rounded-full ring-2 ring-red-500  flex justify-center items-center">
-          <img  className="w-18 object-center"src={html} alt="" />
+          <img  className="w-18 object-center"src={html} alt="html" />
         </div>
         <div className="w-24 h-24 rounded-full ring-blue-600 ring-2 p-2 flex justify-center items-center">
-          <img className="w-14 object-contain object-center" src={css} alt="" />
+          <img className="w-14 object-contain object-center" src={css} alt="css" />
         </div>
         <div className="w-24 h-24 rounded-full ring-blue-500  ring-2 p-2 flex justify-center items-center">
-          <img className="w-16 object-contain object-center" src={tailwind} alt="" />
+          <img className="w-16 object-contain object-center" src={tailwind} alt="tailwind" />
         </div>
         <div className="w-24 h-24 rounded-full ring-2 ring-yellow-600  p-2 flex justify-center items-center">
-          <img className="w-18 object-contain object-center" src={js} alt="" />
+          <img className="w-18 object-contain object-center" src={js} alt="javascript" />
         </div>
         <div className="w-24 h-24 rounded-full ring-2 ring-violet-600  p-2 flex justify-center items-center">
-          <img className="w-18 object-contain object-center" src={framer} alt="" />
+          <img className="w-18 object-contain object-center" src={framer} alt="framerMotion" />
         </div>
        
       </div>
