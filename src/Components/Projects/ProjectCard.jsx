@@ -6,24 +6,22 @@ import {
   Typography,
  
 } from "@material-tailwind/react";
-import { coffeCastle,shopsy } from "../../assets";
 import {react,js,html,css,tailwind,framer} from '../../assets/index'
  
-export function ProjectCard1() {
+export function ProjectCard({img,title,description,className}) {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center md:justify-around mt-12">
+    <div className={` flex flex-col md:flex-row justify-center items-center md:justify-around mt-32 ${className}`}>
 
     <Card className="w-72 flex justify-center bg-black items-center text-white  h-96 ring-2 ring-violet-600 shadow-lg shadow-violet-500">
       <CardHeader floated={false} className="h-52 w-full  ">
-        <img src={shopsy} alt="profile-picture" />
+        <img src={img} alt="profile-picture" />
       </CardHeader>
       <CardBody className="text-center">
         <Typography variant="h4" color="blue-gray" className="mb-2 underline carter-one-regular decoration-violet-500">
-          ShopIn
+         {title}
         </Typography>
         <Typography color="blue-gray" className="font-medium" textGradient>
-        At ShopIn, we believe that style is more than just clothing. Seprate sections for men and women.Effectively displaying discounts and mega offers to catch the customer's eye.
-        </Typography>
+{description}        </Typography>
       </CardBody>
     </Card>
     <div className="tech mt-14 md:mt-0">
