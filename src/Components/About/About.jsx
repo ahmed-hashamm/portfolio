@@ -62,7 +62,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <section className="w-right flex  mt-14 ">
+          <section className="w-right flex  mt-14 mx-0 px-0 ">
             <motion.div
               initial={{ rotate: 0 }}
               whileInView={{ rotate: 360 }}
