@@ -10,8 +10,8 @@ const Portfolio = () => {
   return (
     <div  className=' h-max  justify-center items-center mx-6  flex-col gap-20 border-t pt-6 border-zinc-600'>
       <h1 className='text-[4vw] text-zinc-100 carter-one-regular font-semibold text-center mb-28'>Projects</h1>
-       <ProjectCard title="Dev-Com" description={description1} img={Dev} link="d"/>
-       <ProjectCard className="md:flex-row-reverse"  title="GoodEats" description={description2} img={eatsLogo} />
+       <ProjectCard title="Dev-Com" description={description1} img={Dev} link="devcom-community.netlify.app"/>
+       <ProjectCard className="md:flex-row-reverse"  title="GoodEats" description={description2} img={eatsLogo} link="https://goodeats-food.netlify.app" />
        
         </div>
   )

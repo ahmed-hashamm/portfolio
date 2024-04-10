@@ -23,7 +23,9 @@ export function ProjectCard({img,title,description,className,link}) {
         </Typography>
         <Typography color="blue-gray" className="font-medium" textGradient>
 {description}        </Typography>
-<a className="hover:text-blue-500  font-bold cursor-pointer flex justify-center items-center gap-1" href={link}>Visit<MdArrowOutward /></a>
+<a 
+target="_blank"
+className="hover:text-blue-500  font-bold cursor-pointer flex justify-center items-center gap-1" href={link}>Visit<MdArrowOutward /></a>
       </CardBody>
     </Card>
     <div className="tech mt-14 md:mt-0">
