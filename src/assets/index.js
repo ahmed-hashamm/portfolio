@@ -17,9 +17,13 @@ import upwork from './Upwork.png'
 import fiver from './fiverr.png'
 import coffeelogo from './coffeelogo.png'
 import eatsLogo from './goodeatslogo.png'
+import firebase from "./firebase.png"
+import Dev from "./Dev.png"
 export {
     menu,
     coffeelogo,
+    Dev,
+    firebase,
     eatsLogo,
     close,
     upwork,

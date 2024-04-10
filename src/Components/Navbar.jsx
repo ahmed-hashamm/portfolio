@@ -25,7 +25,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     
-    <nav id="home" className="w-full carter-one-regular fixed md:absolute text-white  z-50 px-10 sm:px-20 py-8 font-['Neue Montreal'] flex justify-between items-center">
+    <nav id="home" className="w-full carter-one-regular fixed  text-white  z-50 px-10 sm:px-20 py-8 font-['Neue Montreal'] flex justify-between items-center">
       <h2 className="font-semibold text-2xl text-[#b20ddfa5]">Hasham.</h2>
       <ul className="list-none md:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav,index) => (

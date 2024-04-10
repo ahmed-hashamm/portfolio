@@ -3,10 +3,10 @@
 }
 
 .w-mainCircle {
-  left: 9rem;
+  left: 4rem;
   position: relative;
-  width: 18rem;
-  height: 18rem;
+  width: 13rem;
+  height: 13rem;
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
   top: 2rem;
@@ -18,24 +18,24 @@
   position: absolute;
 }
 .w-mainCircle > :nth-child(1) {
-  top: -3rem;
-  left: 6rem;
+  top: -4rem;
+  left: 3rem;
 }
 .w-mainCircle > :nth-child(2) {
-  left: -3rem;
-  top: 5rem;
+  left: -4rem;
+  top: 4rem;
 }
 .w-mainCircle > :nth-child(3) {
-  left: 6rem;
-  top: 6rem;
+  left: 3rem;
+  top: 3.5rem;
 }
 .w-mainCircle > :nth-child(4) {
-  left: 15rem;
+  left: 10rem;
   top: 5rem;
 }
 .w-mainCircle > :nth-child(5) {
-  left: 6rem;
-  top: 15rem;
+  left: 3rem;
+  top: 11rem;
 }
 .w-secCircle {
   width: 6rem;
@@ -57,20 +57,20 @@
 
 .w-backCircle {
   position: absolute;
-  height: 13rem;
-  width: 13rem;
+  height: 11rem;
+  width: 11rem;
   border-radius: 100%;
   /* darkMode */
   z-index: 1;
 }
 .blueCircle {
     background: #23a7dfa5;
-    left: 18rem;
+    left: 10rem;
     top: 0rem;
   }
   .yellowCircle {
     background: #000000;
-    left: 18rem;
+    left: 10rem;
     top: 8rem;
   }
 

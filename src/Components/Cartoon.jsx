@@ -19,7 +19,7 @@ useEffect(()=>{
   return (
     <>
     <h1 id="portfolio" className="text-zinc-100 text-center carter-one-regular mt-14 pt-10 -mb-10 m-4 text-[4vw] font-bold">Wanna See my work? </h1>
-    <div className="eyes w-full h-screen overflow-hidden ">
+    <section className="eyes w-full h-[300px] ] ">
       <div data-scroll data-scroll-speed=".9" className="w-full h-full relative">
         <div className="absolute  flex fap-10  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           <div className="w-[15vw] h-[15vw] rounded-full flex items-center justify-center bg-zinc-100">
@@ -40,7 +40,7 @@ useEffect(()=>{
         
       </div>
      
-    </div>
+    </section>
     <h1 className="text-zinc-100 text-center carter-one-regular mb-20 m-4 text-[4vw] font-bold">Almost there..</h1>
     </>
   );

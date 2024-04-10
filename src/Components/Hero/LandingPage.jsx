@@ -11,7 +11,7 @@ const LandingPage = () => {
           data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
-      className="w-full carter-one-regular md:pt-40 flex font-bold flex-col md:flex-row justify-center md:justify-start items-center   h-screen bg-zinc-900   pt-1"
+      className="w-full carter-one-regular md:pt-40 flex font-bold flex-col md:flex-row  justify-around items-center   h-screen bg-zinc-900   "
     >
       <div className="text-left  px-2 -mt-16 md:px-8">
         {["Hey there!", "Click", "And LetS Go"].map((item, index) => (
@@ -28,7 +28,7 @@ const LandingPage = () => {
                   
                 </motion.div>
               )}
-              <h1 className="uppercase  text-zinc-100 tracking-normal  px-2  pt-[2.4vw]  -mb-[1vw] text-5xl sm:text-8xl md:text-[9vw]  font-bold   relative bottom-2 sm:bottom-[1.2vw]  font-['Founders Grotesk'] ">
+              <h1 className="uppercase  text-zinc-100 tracking-normal  px-2  pt-[2.4vw]  -mb-[1vw] text-4xl sm:text-5xl md:text-[6vw]  font-bold   relative bottom-2 sm:bottom-[1.2vw]  font-['Founders Grotesk'] ">
                 {item}
               </h1>
             </div>
