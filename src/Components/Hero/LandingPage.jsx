@@ -4,7 +4,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 import './LandingPage.css'
 import { profilePic } from "../../assets";
 import { FaFileDownload } from "react-icons/fa";
-import resume from './resume.pdf'
+import resume from './Hasham.pdf'
 const LandingPage = () => {
   return (
     <div
